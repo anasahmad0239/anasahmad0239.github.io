@@ -3,10 +3,7 @@ const navContainer2 = document.querySelector(".nav-container2");
 const navContainer = document.querySelector(".nav-container");
 const year = document.querySelector(".year");
 
-window.addEventListener("load", function () {
-  const loader = document.querySelector(".loader");
-  loader.classList.add("loader-finish");
-});
+
 
 burger.addEventListener("click", function () {
   const navContainer2Height = navContainer2.getBoundingClientRect().height;
